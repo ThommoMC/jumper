@@ -1,16 +1,16 @@
-# jumper
+# Jumper
 
-A new Flutter project.
+**Jumper** is a open source replacement for the Vector app!
 
-## Getting Started
+Currently this app is **under development**, so feel free to check back later for updates!
 
-This project is a starting point for a Flutter application.
+## Planned Features
+- Configure Bot Settings
+- Easily switch between CFW
+- Full Prod Compatibility
+- Cross compatibility with all platforms (Windows, MacOS, Linux, iOS and Android)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## For Developers/Contributors
+This is a flutter based app, so you'll need to head over to the [Flutter Install Page](https://docs.flutter.dev/get-started/install) and setup your target platform.
+Then, clone the repo with `git clone https://github.com/ThommoMC/jumper.git` and open it up in a IDE of your choosing.
+You should be all setup to develop then, if you need any help or have questions feel free to reach out to me on discord.
