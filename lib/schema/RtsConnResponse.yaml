@@ -1,0 +1,17 @@
+name: RtsConnResponse
+versions:
+  v1:
+    - name: connectionType
+      type: enum
+      enum: RtsConnType
+      offset: 0
+      size: 1
+    - name: publicKey
+      type: Uint8
+      offset: 1
+      size: 32
+
+enums:
+  RtsConnType:
+    - FirstTimePair
+    - Reconnection

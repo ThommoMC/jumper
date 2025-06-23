@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      jumper|clod_emmitor:
+        generate_for:
+          - lib/schema/*.yaml
+
+builders:
+  clod_emmitor:
+    import: "package:jumper/builder/clad_emmitor.dart"
+    builder_factories: ["cladEmmitorBuilder"]
+    build_extensions: {".yaml": [".g.dart"]}
+    auto_apply: dependents
+    build_to: source

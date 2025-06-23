@@ -1,0 +1,7 @@
+name: RtsConnRequest
+versions: 
+  v1:
+    - name: publicKey
+      type: Uint8
+      offset: 0
+      size: 32
