@@ -70,6 +70,11 @@ class CladEmmitor implements Builder {
           buffer.writeln('final $paramName = $paramEnum.values[byteViewer.getUint8($paramOffset)];');
           continue;
         }
+        //temp workaround for size
+        if(paramType == 'Uint8') {
+          buffer.writeln('final $paramName = bytes.sublist($paramOffset, ${paramOffset + param['size']});');
+          continue;
+        }
         buffer.writeln('final $paramName = byteViewer.get$paramType($paramOffset);');
       }
 

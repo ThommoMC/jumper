@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jumper/onboarding/screens/scanningScreen.dart';
-
+import 'package:jumper/onboarding/onboarding_screens.dart';
 void main() {
   runApp(const Kookaburra());
 }
@@ -16,7 +15,7 @@ class Kookaburra extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       // This is fine for now, should probably be changed in the future
-      home: ScanningScreen(),
+      home: OnboardingScreens(),
     );
   }
 }

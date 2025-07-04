@@ -7,7 +7,7 @@ v1(
 this.publicKey, );
 factory v1.fromBytes(Uint8List bytes) {
 final byteViewer = ByteData.sublistView(bytes);
-final publicKey = byteViewer.getUint8(0);
+final publicKey = bytes.sublist(0, 32);
 return v1(
 publicKey, );}
 }
